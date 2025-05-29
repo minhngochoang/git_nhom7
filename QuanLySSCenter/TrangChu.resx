@@ -443,7 +443,7 @@
   <data name="guna2PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABtKSURBVHhe7d17
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABtKSURBVHhe7d17
         /K71nO/xVUulrA6jKCWH5BA5j2Nmj9OOEQZDDoXJNg3bKSOyyaGGiT3sx2RGTsVMW6Ipo5ISyQy2w5YM
         slUiSlGkUlbpMPv9bWVqtT5rrd/6/X73fV+H5+vxeP7jEbqu63t9r/u+f9f1vZZI6mRLY7t4eDwt/iJe
         G38Th8SRcVJ8Lc6Mc27087jkRsvjP270uxv/s+ZX8ft//gfx9fhsfCI+EO+I18dL4hnxiLhjbBCSJGkB
@@ -565,8 +565,5 @@
   </data>
   <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
   </metadata>
 </root>

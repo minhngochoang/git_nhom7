@@ -141,10 +141,10 @@
             this.guna2Panel1.Controls.Add(this.guna2Button3);
             this.guna2Panel1.Controls.Add(this.guna2Button1);
             this.guna2Panel1.Controls.Add(this.guna2Button2);
-            this.guna2Panel1.Location = new System.Drawing.Point(29, 34);
+            this.guna2Panel1.Location = new System.Drawing.Point(1, -1);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1602, 959);
+            this.guna2Panel1.Size = new System.Drawing.Size(1666, 994);
             this.guna2Panel1.TabIndex = 24;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 

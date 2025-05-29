@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmQuanlyNhaphang));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
@@ -70,7 +71,6 @@
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.txtTimKiem = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -109,6 +109,24 @@
             this.splitContainer1.SplitterDistance = 1017;
             this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // guna2Button6
+            // 
+            this.guna2Button6.BorderRadius = 18;
+            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.guna2Button6.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.ImageSize = new System.Drawing.Size(17, 17);
+            this.guna2Button6.Location = new System.Drawing.Point(412, 433);
+            this.guna2Button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button6.Name = "guna2Button6";
+            this.guna2Button6.Size = new System.Drawing.Size(176, 56);
+            this.guna2Button6.TabIndex = 58;
+            this.guna2Button6.Text = "Làm mới";
+            this.guna2Button6.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
             // dataGridView1
             // 
@@ -499,6 +517,7 @@
             this.txtMaHH.SelectedText = "";
             this.txtMaHH.Size = new System.Drawing.Size(214, 35);
             this.txtMaHH.TabIndex = 56;
+            this.txtMaHH.TextChanged += new System.EventHandler(this.txtMaHH_TextChanged);
             // 
             // groupBox2
             // 
@@ -735,24 +754,6 @@
             this.guna2Button1.Size = new System.Drawing.Size(58, 40);
             this.guna2Button1.TabIndex = 11;
             // 
-            // guna2Button6
-            // 
-            this.guna2Button6.BorderRadius = 18;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.ImageSize = new System.Drawing.Size(17, 17);
-            this.guna2Button6.Location = new System.Drawing.Point(412, 433);
-            this.guna2Button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(176, 56);
-            this.guna2Button6.TabIndex = 58;
-            this.guna2Button6.Text = "Làm mới";
-            this.guna2Button6.Click += new System.EventHandler(this.btnLamMoi_Click);
-            // 
             // frmQuanlyNhaphang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -762,6 +763,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmQuanlyNhaphang";
             this.Text = "Quản lý đơn nhập hàng";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmQuanlyNhaphang_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();

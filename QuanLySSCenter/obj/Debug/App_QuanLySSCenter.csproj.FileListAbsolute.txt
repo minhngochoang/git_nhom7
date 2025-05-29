@@ -125,7 +125,6 @@ D:\BaiTap\QTCSDL\BTNhom\QuanLySSCenter\QuanLySSCenter\obj\Debug\App_QuanLySSCent
 D:\BaiTap\QTCSDL\BTNhom\QuanLySSCenter\QuanLySSCenter\obj\Debug\QuanLySSCenter.BaoCao_CacMuc.resources
 D:\BaiTap\QTCSDL\BTNhom\QuanLySSCenter\QuanLySSCenter\obj\Debug\QuanLySSCenter.CongNo.resources
 D:\BaiTap\QTCSDL\BTNhom\QuanLySSCenter\QuanLySSCenter\obj\Debug\QuanLySSCenter.DangNhap.resources
-D:\BaiTap\QTCSDL\BTNhom\QuanLySSCenter\QuanLySSCenter\obj\Debug\TP_BVSK.QuanlyBanhang.resources
 D:\BaiTap\QTCSDL\BTNhom\QuanLySSCenter\QuanLySSCenter\obj\Debug\TP_BVSK.frmQuanlyNhaphang.resources
 D:\BaiTap\QTCSDL\BTNhom\QuanLySSCenter\QuanLySSCenter\obj\Debug\TP_BVSK.module13.resources
 D:\BaiTap\QTCSDL\BTNhom\QuanLySSCenter\QuanLySSCenter\obj\Debug\TP_BVSK.frmModul3.resources
@@ -153,3 +152,4 @@ D:\BaiTap\QTCSDL\BTNhom\QuanLySSCenter\QuanLySSCenter\obj\Debug\App_QuanLySSCent
 D:\BaiTap\QTCSDL\BTNhom\QuanLySSCenter\QuanLySSCenter\obj\Debug\App_Quan.6670E03D.Up2Date
 D:\BaiTap\QTCSDL\BTNhom\QuanLySSCenter\QuanLySSCenter\obj\Debug\QuanLySSCenter.exe
 D:\BaiTap\QTCSDL\BTNhom\QuanLySSCenter\QuanLySSCenter\obj\Debug\QuanLySSCenter.pdb
+D:\BaiTap\QTCSDL\BTNhom\QuanLySSCenter\QuanLySSCenter\obj\Debug\TP_BVSK.frmQuanlyBanhang.resources

@@ -463,5 +463,10 @@ namespace TP_BVSK
 
             if (txtSoHDN != null) txtSoHDN.Focus();
         }
+
+        private void txtMaHH_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

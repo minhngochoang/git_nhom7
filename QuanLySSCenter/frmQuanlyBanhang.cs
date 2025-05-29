@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TP_BVSK
 {
-    public partial class QuanlyBanhang : Form
+    public partial class frmQuanlyBanhang : Form
     {
-        public QuanlyBanhang()
+        public frmQuanlyBanhang()
         {
             InitializeComponent();
         }
