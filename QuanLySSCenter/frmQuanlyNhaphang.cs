@@ -264,6 +264,7 @@ namespace TP_BVSK
 
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
+
             // === Thông tin hóa đơn nhập ===
             txtSoHDN.Text = dataGridView1.Rows[e.RowIndex].Cells["SOHDN"].Value.ToString();
             dateTimePicker1.Value = Convert.ToDateTime(dataGridView1.Rows[e.RowIndex].Cells["NgayNhap"].Value);
@@ -467,6 +468,11 @@ namespace TP_BVSK
         private void txtMaHH_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Close(); // Đóng form hiện tại
         }
     }
 }

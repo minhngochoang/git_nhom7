@@ -27,49 +27,49 @@ namespace QuanLySSCenter
         {
             BaoCao_CacMuc baoCao = new BaoCao_CacMuc();
             //baoCao.MdiParent = this;
-            baoCao.Show();
+            baoCao.ShowDialog();
         }
 
         private void btnNhapHang_Click(object sender, EventArgs e)
         {
             frmQuanlyNhaphang nhapHang = new frmQuanlyNhaphang();
-            nhapHang.Show();
+            nhapHang.ShowDialog();
         }
 
         private void btnBanHang_Click(object sender, EventArgs e)
         {
             frmQuanlyBanhang banHang = new frmQuanlyBanhang();
-            banHang.Show();
+            banHang.ShowDialog();
         }
 
         private void btnCongNo_Click(object sender, EventArgs e)
         {
             CongNo congNo = new CongNo();
-            congNo.Show();
+            congNo.ShowDialog();
         }
 
         private void btnSanPham_Click(object sender, EventArgs e)
         {
             CongNo congNo = new CongNo();
-            congNo.Show();
+            congNo.ShowDialog();
         }
 
         private void btnKhachHang_Click(object sender, EventArgs e)
         {
             KhachHang khach = new KhachHang();
-            khach.Show();
+            khach.ShowDialog();
         }
 
         private void btnNhaCungCap_Click(object sender, EventArgs e)
         {
             frmNhaCungCap ncc = new frmNhaCungCap();
-            ncc.Show();
+            ncc.ShowDialog();
         }
 
         private void btnNhanVien_Click(object sender, EventArgs e)
         {
             NhanVien nv = new NhanVien();
-            nv.Show();
+            nv.ShowDialog();
         }
     }
 }

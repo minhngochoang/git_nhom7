@@ -253,7 +253,6 @@
             this.btnNhanVien.Size = new System.Drawing.Size(232, 81);
             this.btnNhanVien.TabIndex = 2;
             this.btnNhanVien.Text = "Nhân Viên";
-            this.btnNhanVien.Click += new System.EventHandler(this.btnNhanVien_Click);
             // 
             // btnSanPham
             // 
